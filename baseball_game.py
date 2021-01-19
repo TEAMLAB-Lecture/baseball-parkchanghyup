@@ -114,7 +114,7 @@ def main():
                 strikes, balls = get_strikes_or_ball(user_input, random_number)
                 print('strikes : ', strikes, 'balls : ', balls)
                 if strikes == 3:
-                    print('you win, one more ?(Y,N)')
+                    print('You win, one more(Y/N)?')
                     if is_yes(input()):
                         check =True
                         break
